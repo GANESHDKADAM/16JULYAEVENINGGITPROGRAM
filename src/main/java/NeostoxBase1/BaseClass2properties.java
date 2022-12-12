@@ -16,7 +16,6 @@ public class BaseClass2properties
 	         System.setProperty("webdriver.chrome.driver", "C:\\Users\\User\\Downloads\\selenium-java-4.4.0\\chromedriver.exe");
 			driver=new ChromeDriver();
 			driver.get(Utilitycommonmethod2properties.readdatafromPropertyFile("url"));
-			
 			driver.manage().window().maximize();
 			Reporter.log("luanching the browser",true);
 		    Thread.sleep(1000);
