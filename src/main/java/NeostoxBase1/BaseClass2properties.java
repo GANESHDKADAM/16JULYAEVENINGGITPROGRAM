@@ -18,6 +18,20 @@ public class BaseClass2properties
 			driver.get(Utilitycommonmethod2properties.readdatafromPropertyFile("url"));
 			driver.manage().window().maximize();
 			Reporter.log("luanching the browser",true);
+			
+			
+			
+			
+			
+		    Thread.sleep(1000);
+		    Thread.sleep(1000);
+		    Thread.sleep(1000);
+		    Thread.sleep(1000);
+		    Thread.sleep(1000);
+		    Thread.sleep(1000);
+		    Thread.sleep(1000);
+		    Thread.sleep(1000);
+		    Thread.sleep(1000);
 		    Thread.sleep(1000);
 		}
 
